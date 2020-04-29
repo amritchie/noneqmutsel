@@ -1,0 +1,6 @@
+#ifndef NEMSS_CONFIG_H
+#  define NEMSS_CONFIG_H
+
+#  define SOURCE_DIR "@CMAKE_SOURCE_DIR@"
+
+#endif /*NEMSS_CONFIG_H*/

@@ -1,0 +1,3 @@
+add_executable(mutsel main.cpp MutationSelectionModel.cpp RNonHomogeneousMultiProfileTreeLikelihood.cpp AdditionalOptimizationTools.cpp MutSelSubstitutionModelSetTools.cpp MixedSubstitutionModelFunction.cpp BranchMixtureMutSelInference.cpp)
+target_link_libraries(mutsel ${BPP_LIBS})
+
